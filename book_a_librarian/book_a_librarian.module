@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Code for the Book-a-Librarian feature.
+ */
+
+include_once 'book_a_librarian.features.inc';
+
+function book_a_librarian_form_alter(&$form, &$form_state, $form_id) {
+//      dpm($form);
+if($form_id == 'book_a_librarian_node_form') {
+        drupal_set_title('Book a Librarian request form');
+
+
+}
+}
+
